@@ -8,3 +8,8 @@ Hozz létre repositorit, utána a Terminalba:
     --> Törlés: git remote remove origin
 4. git commit -m 'Megjegyzés'
 5. git push -u origin master
+
+Fájl lehúzása pl más mappába: 
+1. cd workDirectory
+2. git init 
+3. git pull 'url'
