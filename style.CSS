@@ -1,0 +1,41 @@
+html{
+    background-color: black;
+    color: whitesmoke;
+}
+#content div{
+    border: 1px solid turquoise;
+    background-color: orangered
+}
+
+#content{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15vh, auto);
+
+    grid-gap: 10px;
+}
+#A{
+
+}
+#B{
+    
+}
+#C{
+    
+}
+#D{
+    
+}
+#E{
+    
+}
+#F{
+    
+}
+#G{
+    
+}
+#H{
+    
+}
