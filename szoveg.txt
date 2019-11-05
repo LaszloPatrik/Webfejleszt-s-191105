@@ -5,4 +5,5 @@ Hozz létre repositorit, utána a Terminalba:
 2. git add .
 3. git remote add origin 'url'
     --> Ellenőrzés: git remote -v
+    --> Törlés: git remote remove origin
 4. git push -u origin master
