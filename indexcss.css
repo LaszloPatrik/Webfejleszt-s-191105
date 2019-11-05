@@ -10,32 +10,35 @@ html{
 #content{
     display: grid;
 
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(15vh, auto);
+    grid-template: 
+        "a b c" 100px
+        "d e f" 100px 
+        "g h h" 100px
+        / 1fr 1fr 100px;
 
     grid-gap: 10px;
 }
 #A{
-    grid-column: 1/3;
+    grid-area: a;
 }
 #B{
-    
+    grid-area: b;
 }
 #C{
-    
+    grid-area: c;
 }
 #D{
-    
+    grid-area: d;
 }
 #E{
-    
+    grid-area: e;
 }
 #F{
-    
+    grid-area: f;
 }
 #G{
-    
+    grid-area: g;
 }
 #H{
-    
+    grid-area: h;
 }
